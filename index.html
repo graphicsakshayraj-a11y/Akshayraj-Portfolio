@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="theme-color" content="#090b10">
+<title>Akshayraj Sannake | Portfolio</title>
+<style>
+:root{--bg:#090b10;--panel:#121722;--gold:#d8b46a;--muted:#9ba4b4;--white:#f5f3ee}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 80% 0%,#24202a 0,#090b10 40%);color:var(--white);font-family:system-ui,-apple-system,"Noto Sans Devanagari",sans-serif}
+a{color:inherit;text-decoration:none}.wrap{max-width:760px;margin:auto;padding:0 18px 40px}
+header{display:flex;align-items:center;justify-content:space-between;padding:22px 0}.brand{font-size:13px;letter-spacing:2px;color:var(--gold);font-weight:800}.menu{border:1px solid #333b49;border-radius:30px;padding:9px 14px;color:#dce0e8;font-size:12px}
+.hero{padding:34px 0 28px;min-height:510px;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden}
+.orb{position:absolute;width:280px;height:280px;border-radius:50%;right:-90px;top:45px;background:radial-gradient(circle,#d8b46a35,transparent 68%);filter:blur(4px)}
+.kicker{color:var(--gold);letter-spacing:3px;font-size:11px;font-weight:700;text-transform:uppercase}
+h1{font-size:clamp(43px,12vw,76px);line-height:1.04;margin:18px 0 14px;letter-spacing:-2px}.gold{color:var(--gold)}.intro{color:#b8bfcb;line-height:1.8;max-width:490px;font-size:15px}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:25px}.btn{padding:13px 18px;border-radius:13px;background:linear-gradient(135deg,#e4c783,#b68b43);color:#111;font-weight:800;font-size:13px}.btn.alt{background:#171e2a;color:#eee;border:1px solid #343c49}
+.hero-card{margin-top:30px;border:1px solid #35313a;border-radius:22px;padding:18px;background:linear-gradient(135deg,#1b202b,#10131b);display:flex;align-items:center;gap:16px;max-width:420px;box-shadow:0 18px 55px #0007}
+.avatar{width:76px;height:76px;border-radius:20px;object-fit:cover;border:1px solid #d8b46a88}
+.small{font-size:12px;color:var(--muted);line-height:1.6}.section{padding:30px 0}.eyebrow{color:var(--gold);font-size:10px;letter-spacing:3px;font-weight:800}.section h2{font-size:29px;margin:8px 0 18px}.card{background:linear-gradient(145deg,#171e29,#10141d);border:1px solid #29313d;border-radius:20px;padding:20px;margin:12px 0}
+.card p{color:#aeb7c5;line-height:1.8;font-size:14px;margin-bottom:0}.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.tag{font-size:11px;border:1px solid #3b414b;border-radius:30px;padding:7px 11px;color:#d4d8df}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.tile{min-height:145px;border-radius:18px;padding:16px;display:flex;flex-direction:column;justify-content:flex-end;border:1px solid #3a3540;background:linear-gradient(145deg,#453b2e,#171923 75%);position:relative;overflow:hidden}.tile:nth-child(2){background:linear-gradient(145deg,#263d49,#141923 75%)}.tile:nth-child(3){background:linear-gradient(145deg,#47333b,#171923 75%)}.tile:nth-child(4){background:linear-gradient(145deg,#37364d,#141923 75%)}.tile:before{content:"";position:absolute;width:110px;height:110px;border:1px solid #ffffff22;border-radius:50%;right:-28px;top:-30px}.tile b{font-size:14px;z-index:1}.tile span{font-size:11px;color:#c0c5ce;z-index:1;margin-top:5px}
+.gallery-note{color:#aeb7c5;font-size:12px;line-height:1.7;margin-top:12px}
+.video-player{width:100%;border-radius:16px;border:1px solid #343b47;background:#000;display:block;max-height:520px}.profile-photo{width:100%;max-width:190px;aspect-ratio:4/5;object-fit:cover;border-radius:18px;border:1px solid #d8b46a66}
+.photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.photo-grid img{width:100%;height:210px;object-fit:cover;border-radius:16px;border:1px solid #343b47;background:#171e29}
+.photo-grid img:first-child{grid-column:span 2;height:230px}
+@media(min-width:600px){.photo-grid img{height:260px}.photo-grid img:first-child{height:320px}}
+.contact{background:linear-gradient(135deg,#25221b,#141821);border:1px solid #5b4a2c;border-radius:22px;padding:22px}.contact h2{margin-top:8px}.contact p{color:#b9c0cb;line-height:1.7;font-size:13px}
+footer{text-align:center;color:#737d8c;font-size:11px;padding:25px 0 10px;border-top:1px solid #242b36;margin-top:28px}
+nav{position:sticky;top:0;z-index:5;background:#0b0e14eF;backdrop-filter:blur(14px);display:flex;justify-content:space-around;padding:10px 3px;border-bottom:1px solid #252c37;overflow:auto;gap:12px}
+nav a{font-size:10px;color:#c4cbd5;white-space:nowrap}
+@media(min-width:600px){.wrap{padding-left:28px;padding-right:28px}.hero{min-height:570px}.grid{grid-template-columns:repeat(2,1fr)}}
+</style></head>
+<body><div class="wrap">
+<header><div class="brand">AS / PORTFOLIO</div><a class="menu" href="#contact">LET'S CONNECT ↗</a></header>
+<nav><a href="#about">ABOUT</a><a href="#work">PORTFOLIO</a><a href="#photos">PHOTOS</a><a href="#videos">VIDEOS</a><a href="#contact">CONTACT</a></nav>
+<section class="hero"><div class="orb"></div><div class="kicker">DIGITAL CREATOR · INDIA</div>
+<h1>Akshayraj<br><span class="gold">Sannake.</span></h1>
+<p class="intro">कलेतून व्यक्त होणारा विचार, डिझाइनमधून जिवंत होणारी कल्पना. Marathi Calligraphy Artist & Digital Creator.</p>
+<div class="actions"><a class="btn" href="https://www.instagram.com/akshayrajsannake/" target="_blank">Instagram ↗</a><a class="btn alt" href="#work">Explore My Work ↓</a></div>
+<div class="hero-card"><img class="avatar" src="images/portrait-standing.jpg" alt="Akshayraj Sannake"><div><b>अक्षयराज सण्णके</b><div class="small">Marathi Calligraphy · Creative Design<br>Umबरज, Maharashtra, India</div></div></div>
+</section>
+<section class="section" id="about"><div class="eyebrow">01 / ABOUT ME</div><h2>Creating with <span class="gold">purpose.</span></h2><div class="card"><img class="profile-photo" src="images/portrait-seated.jpg" alt="Akshayraj outdoors"><div style="height:14px"></div><b>नमस्कार! मी अक्षयराज.</b><p>मी एक Marathi Calligraphy Artist आणि Digital Creator आहे. मराठी अक्षरांची सौंदर्यपूर्ण मांडणी, क्रिएटिव्ह डिझाइन आणि व्हिज्युअल स्टोरीटेलिंग यांमधून कल्पनांना वेगळी ओळख देण्याचा माझा प्रयत्न असतो.</p><div class="tags"><span class="tag">Marathi Calligraphy</span><span class="tag">Graphic Design</span><span class="tag">Photography</span><span class="tag">Creative Content</span><span class="tag">Biking</span></div></div></section>
+<section class="section" id="work"><div class="eyebrow">02 / SELECTED WORK</div><h2>My <span class="gold">Portfolio.</span></h2><div class="photo-grid">
+<img src="images/portrait-bw.jpg" alt="Black and white portrait">
+<img src="images/portrait-standing.jpg" alt="Portrait">
+<img src="images/bike-portrait.jpg" alt="Akshayraj with motorcycle">
+<img src="images/bike-rider.jpg" alt="Motorcycle portrait">
+</div><p class="gallery-note">तुमची निवडक कामे, प्रोजेक्ट्स आणि डिझाइन्स येथे जोडता येतील.</p></section>
+<section class="section" id="photos"><div class="eyebrow">03 / VISUAL DIARY</div><h2>Photo <span class="gold">Gallery.</span></h2><div class="photo-grid">
+<img src="images/portrait-seated.jpg" alt="Akshayraj seated outdoors">
+<img src="images/portrait-standing.jpg" alt="Akshayraj standing">
+<img src="images/portrait-bw.jpg" alt="Black and white portrait">
+<img src="images/motorcycle-detail.jpg" alt="Motorcycle detail">
+<img src="images/bike-rider.jpg" alt="Akshayraj with motorcycle">
+</div></section>
+<section class="section" id="videos"><div class="eyebrow">04 / MOTION & STORIES</div><h2>Video <span class="gold">Gallery.</span></h2><div class="card"><b>My Featured Video</b><p>माझा व्हिडिओ येथे पाहा.</p><video class="video-player" controls playsinline preload="metadata">
+<source src="videos/portfolio-reel.mp4" type="video/mp4">
+तुमचा ब्राउझर व्हिडिओ प्ले करू शकत नाही.
+</video><div class="actions"><a class="btn alt" href="https://www.instagram.com/akshayrajsannake/" target="_blank">More on Instagram ↗</a></div></div></section>
+<section class="section" id="contact"><div class="contact"><div class="eyebrow">05 / CONTACT</div><h2>Let's create<br><span class="gold">something great.</span></h2><p>नवीन प्रोजेक्ट, सहकार्य किंवा क्रिएटिव्ह कल्पनेसाठी संपर्क साधा.</p><div class="actions"><a class="btn" href="https://wa.me/919766449007?text=Hello%20Akshayraj%2C%20I%20visited%20your%20portfolio." target="_blank">WhatsApp ↗</a><a class="btn alt" href="https://www.instagram.com/akshayrajsannake/" target="_blank">Instagram ↗</a></div></div></section>
+<footer>© 2026 AKSHAYRAJ SANNAKE · MADE WITH CREATIVITY</footer>
+</div></body></html>

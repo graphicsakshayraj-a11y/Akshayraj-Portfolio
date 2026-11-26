@@ -1,0 +1,22 @@
+AKSHAYRAJ PORTFOLIO — GITHUB ONLINE APK BUILD (2026)
+
+ही ZIP GitHub Actions वर Online APK तयार करण्यासाठी आहे.
+AndroidIDE/Gradle 6.1.1 मध्ये ही ZIP build करू नका. Build GitHub Cloud Runner वर होईल.
+
+UPLOAD:
+1. ZIP Extract करा.
+2. Extract केलेल्या folder मधील सर्व files आणि folders निवडा.
+3. GitHub repository च्या Code पेजवर Add file > Upload files निवडा.
+4. सर्व files upload करा. .github folder सुद्धा upload झाला आहे याची खात्री करा.
+5. Commit changes करा.
+
+BUILD:
+1. Repository मधील Actions tab उघडा.
+2. "Build Akshayraj Portfolio APK" workflow निवडा.
+3. Run workflow दाबा.
+4. Workflow Success झाल्यावर run उघडा.
+5. Artifacts मधील "Akshayraj-Portfolio-APK" डाउनलोड करा.
+6. Artifact ZIP extract करा. app-debug.apk install करा.
+
+Build setup: Android Gradle Plugin 9.4.0, Gradle 9.6.0, JDK 17, Android SDK 37.
+Official compatibility: https://developer.android.com/build/releases/agp-9-4-0-release-notes
